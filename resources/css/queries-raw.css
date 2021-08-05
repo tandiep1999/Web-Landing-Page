@@ -1,0 +1,360 @@
+/* Desktop Screen from 1201 - 1680 */
+@media only screen and (max-width: 1680px) {
+    .heading-main-box {
+        transform: translate(-40%, -70%);
+    }
+}
+
+/* Big tabelt to 1200px; */
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .main-navigation {
+        font-size: 18px;
+    }
+
+    .heading-main-box {
+        transform: translate(-40%, -70%);
+    }
+
+    form{
+        margin-left: 25%;
+    }
+
+    .contact-section .information {
+        transform: translate(15%, 100%);
+    }
+
+    blockquote {    
+        margin-left: 20px;
+    }
+}
+
+/* Small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .products-section {
+        height: auto;
+    }
+
+    .testimonials-section {
+        height: auto;
+    }
+
+    .contact-section {
+        height: auto;
+        background-position: right;
+    }
+
+    .logo {
+        width: 250px;
+        margin-top: -30px;
+        margin-left: 40px;
+    }
+
+    .main-navigation {
+        font-size: 17px;
+        margin-top: 45px;
+        margin-right: 15px;
+    }
+
+    .main-navigation li {
+        margin-right: 15px;
+    }
+
+    .heading-main-box {
+        transform: translate(-29%, -70%);
+    }
+
+    .products-detail .button {
+        margin-left: 15%;
+    }
+
+    .products-detail h3{
+        font-size: 90%;
+    }
+
+    .products-detail ul {
+        margin-left: 20px;
+    }
+
+    .products-detail .button{
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+
+    .products-detail ul li {
+        font-size: 18px;
+        margin-left: 25px;
+    }
+
+    blockquote {    
+        margin-left: 20px;
+    }
+
+    .contact-section .information {
+        transform: translate(15%, 40%);
+    }
+
+    .contact-section .information ul {
+        font-size: 16px;
+    }
+
+    .contact-section .information ul li i {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .information .small-icon:hover,
+    .information .small-icon:active {
+    transform: scale(1.1);
+    }
+
+    .media-icon {
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .main-navigation{
+        display: block !important;
+    }
+}
+
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 24px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    /*----------------- DETAIL CHANGES--------------- */
+    .main-navigation {
+        display: none;
+        font-size: 16px; 
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .mobile-nav-icon {
+        visibility: visible;
+    }
+
+    .logo {
+        width: 350px;
+        margin-left: 15%;
+    }
+
+    .heading-main-box {
+        transform: translate(-17.5%, -70%);
+    }
+
+    h1 {
+        font-size: 150%;
+        word-spacing: 1px;
+    }
+
+    .heading-main-box .button {
+        font-size: 20px;
+    }
+
+    .about-picture {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .about-section .p-long {
+        font-size: 24px;
+        color: #22277A;
+    }
+
+    .about-picture img {
+        width: 70%;
+    }
+
+    .products-section .row .products-detail {
+        font-size: 20px;
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+
+    .products-detail .button {
+        width: 70%;
+        padding-top: 15px; /* top - left - bottom - right */
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 90%;
+        margin-left: 15%;
+    } 
+
+    
+    .products-detail h3 {
+        font-size: 120%;
+    }
+
+    .products-detail ul li{
+        font-size: 95%;
+        margin-left: 15%;
+    }
+
+    form {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .logo {
+        width: 300px;
+        margin-left: 10%;
+    }
+
+    .mobile-nav-icon {
+        font-size: 150%;
+        top: 55px;
+    }
+
+    .sticky .mobile-nav-icon {
+        top: 20px;
+    }
+}
+
+/* Small phones from 0 to 480 px */
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 200px;
+        margin-left: 10%;
+    }
+
+    .mobile-nav-icon {
+        font-size: 200%;
+        top: 30px;
+    }
+
+    .sticky .mobile-nav-icon {
+        top: 30px;
+    }
+
+    .main-navigation {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .heading-main-box {
+        font-size: 16px;
+        width: 100px;
+        transform: translate(-70%, -70%);
+    }
+
+    .heading-main-box h1 {
+        width: 150px;
+    }
+
+    .heading-main-box .button{
+        display: block;
+        font-size: 14px;
+        margin-top: 20px;
+        width: 170px;
+        transform: translate(-15%, -70%);
+    }
+
+    .about-section .row .p-long {
+        font-size: 18px;
+    }
+
+    .picture-title {
+        font-size: 14px;
+    }
+
+    .products-section .row .products-detail {
+        font-size: 12px;
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        max-height: 300px;
+    }
+
+    .products-detail .button {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    .products-detail ul li {
+        font-size: 120%;
+        margin-bottom: 8px;
+        margin-left: 5%;
+    }
+
+    .testimonials-section .row .col {
+        font-size: 18px;
+    }
+    .sponsors-showcase figure figcaption {
+        visibility: hidden;
+    }
+
+    .sponsors-section .sponsors-showcase li img {
+        margin-left: 25%;
+        width: 100px;
+    }
+
+    .contact-section .information {
+        width: 70%;
+        transform: translate(15%, 20%);
+        text-align: center;
+    }
+
+    .contact-section .information ul {
+        font-size: 18px;
+    }
+
+    .contact-section .information .socialMedia-logo .media-icon {
+        margin-right: 15px;
+    }
+
+    .contact-form {
+        margin-top: 10px;
+    }
+
+    form {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    .mobile-nav-icon {
+        top: 65px;
+    }
+
+    .sticky .mobile-nav-icon {
+        top: 20px;
+    }
+
+    .sticky .logo {
+        width: 125px;
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
+
+    .main-navigation {
+        margin-top: 35px;
+    }
+    
+    .main-navigation li{
+        font-size: 18px;
+        display: block;
+        text-align: center;
+        line-height: 35px;
+        margin-left: 5px;
+    }
+}

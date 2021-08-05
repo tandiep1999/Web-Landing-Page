@@ -1,0 +1,58 @@
+/* ------------ DEFAULT --------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffffff;
+    color: #5a5a5a;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    /* font size mặc định nếu không chỉnh là 16px */
+}
+
+
+
+
+/* ---------- REUSABLE COMPONENTS ---------------*/
+.row{
+    max-width: 1140px;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/******------------ ------------*******/
+header {
+    background-image: /*linear-gradient(45deg, rgba(74, 211, 184, 0.9), rgba(185, 191, 255, 0.9) 55%) */url(../image/background3.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* vh = view height */
+    background-attachment: fixed;
+}
+
+header .row {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+iframe {
+    width: 70%;
+    height: 70vh;
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+    width: 550px;
+    height: 70vh;
+    font-size: 18px;
+}
